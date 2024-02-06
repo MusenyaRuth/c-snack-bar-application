@@ -1,0 +1,3199 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    
+    
+    <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"1e7946724e",applicationID:"31671751"};;/*! For license information please see nr-loader-rum-1.251.1.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,DL:()=>w,OP:()=>S,lF:()=>T,Yu:()=>x,Dg:()=>m,CX:()=>c,GE:()=>_,sU:()=>R});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!A[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return A[e]}function _(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const x=(0,n.mF)().o;var E=r(385),D=r(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(E._A?.performance?.timeOrigin||E._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof E._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},j={};function S(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!j[e])throw new Error("Runtime for ".concat(e," was never set"));return j[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");j[e]=(0,i.D)(t,k);const r=(0,n.ek)(e);r&&(r.runtime=j[e])}function T(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.251.1",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>n,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=[...s[e]];function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((t=>{let[r]=t;s[e].delete(r),a(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},f=!1;try{f=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=p(n),c=v(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var f=b()[s[e]];f&&f.push([g,e,r,a]);return a},get:m,listeners:v,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function h(e,t){n[e]=v(e).concat(t)}function v(e){return n[e]||[]}function m(t){return d[t]=d[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),d=(0,n.fP)();function l(){u.aborted=!0,u.backlog={}}d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>o,IK:()=>c,oD:()=>i,uT:()=>s,wO:()=>a});const n="NRBA",i=144e5,o=18e5,a={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},s={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},c={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>d,T:()=>l});var n=r(8325),i=r(5546),o=r(3325),a=r(385);const s="newrelic";const c={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]},u=new Set;function d(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,n]=e;c[t]?c[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),l[t]=Boolean(n)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{a._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(7894),i=r(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,n.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},7530:(e,t,r)=>{"use strict";r.d(t,{j:()=>b});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(7894),c=r(8e3),u=r(3960),d=r(385),l=r(50),f=r(3081),g=r(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var h=r(2825);const v=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:A,info:w,loader_config:_,runtime:x={loaderType:b},exposed:E=!0}=t;const D=(0,g.gG)();w||(A=D.init,w=D.info,_=D.loader_config),(0,i.Dg)(e.agentIdentifier,A||{}),(0,i.GE)(e.agentIdentifier,_||{}),w.jsAttributes??={},d.v6&&(w.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,w);const k=(0,i.P_)(e.agentIdentifier),j=[w.beacon,w.errorBeacon];m||(k.proxy.assets&&(v(k.proxy.assets),j.push(k.proxy.assets)),k.proxy.beacon&&j.push(k.proxy.beacon),p(),(0,g.EZ)("activatedFeatures",h.T)),x.denyList=[...k.ajax.deny_list||[],...k.ajax.block_internal?j:[]],(0,i.sU)(e.agentIdentifier,x),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),w(v,n,!0,o||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=w(v,e,!0,"api")})),g.addPageAction=w(v,"addPageAction",!0,n.D.pageAction),g.setCurrentRouteName=w(v,"routeName",!0,n.D.spa),g.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,w(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.recordReplay=function(){(0,o.p)(f.xS,["API/recordReplay/called"],void 0,n.D.metrics,p),(0,o.p)("recordReplay",[],void 0,n.D.sessionReplay,p)},g.pauseReplay=function(){(0,o.p)(f.xS,["API/pauseReplay/called"],void 0,n.D.metrics,p),(0,o.p)("pauseReplay",[],void 0,n.D.sessionReplay,p)},g.interaction=function(){return(new y).get()};var A=y.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(f.xS,["API/createTracer/called"],void 0,n.D.metrics,p),(0,o.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],r),e}finally{h.emit("fn-end",[(0,s.z)()],r)}}}};function w(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function _(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{A[e]=w(m,e,void 0,n.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.il?(0,u.b2)((()=>_()),!0):_(),g}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=E),m=!0}},1926:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.251.1.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.251.1.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-se+MgwtmnbdP/MASClg+GOgpTkSpcEndd09loplWI8jtivCRtbuBQGqwgSDauFr6FUmrBsb2ccq/Hk5NZDAKMQ=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.251.1.PROD"]=self["webpackChunk:NRBA-1.251.1.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(1926);var e=i(50);class t{#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e("recordReplay")}pauseReplay(){return this.#e("pauseReplay")}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var r=i(3325),n=i(234);const o=Object.values(r.D);function a(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let o;this.onAggregateImported=new Promise((e=>{o=e}));const a=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,957));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void o(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),o(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),o(!1)}};l.il?(0,d.b2)((()=>a()),!0):a()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,r),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,v.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=b(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=A(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function A(e){return"object"!=typeof e?[]:(0,v.D)(e,w)}function w(e,t){return t}var _=i(8632),x=i(4402),E=i(4351);var D=i(5546),k=i(7956),j=i(3239),S=i(7894),R=i(9251);class T extends f{static featureName=R.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,r),l.il&&((0,k.N)((()=>(0,D.p)("docHidden",[(0,S.z)()],void 0,R.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,D.p)("winPagehide",[(0,S.z)()],void 0,R.t,this.ee))),this.importAggregator())}}var I=i(3081);class P extends f{static featureName=I.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},(0,_.h5)(r,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){try{const t=a(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),n.forEach((n=>{if(t[n.featureName]||n.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(n.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(i),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[p,T,P],loaderType:"lite"})})()})();</script>
+<meta name="document-type" content="Public">
+<meta name="document-rating" content="Safe for Kids">
+<meta name="robots" content="ALL, INDEX, FOLLOW">
+<meta name="googlebot" content="index, follow">
+<meta name="Expires" content="never">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="revisit-after" content="7 days">
+<meta name="target" content="all">
+<meta name="HandheldFriendly" content="True">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="https://realtouchelectronics.websites.co.in/files/1690762/favicon/favicon.png?v=649460777"/>
+
+
+<meta name="theme-color" content="#101010">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+
+
+<meta name="title" content="RealTouch Electronics in  Nairobi">
+<meta name="description" content="Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.
+ We are located at Princely house next to MKU tower...">
+<meta name="author" content="RealTouch Electronics">
+<meta name="keywords" content="RealTouch Electronics,RealTouch Electronics in Nairobi,RealTouch Electronics in Nairobi,RealTouch Electronics in Kenya,RealTouch Electronics in LOCAL BUSINESS">
+
+
+<meta name="csrf-token" content="3LMyPvxsPMh6LZSmZIhlCNpOzsy80uqycS2n1Vw6">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RealTouch Electronics in  Nairobi">
+<meta name="twitter:image" content="https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png">
+<meta name="twitter:image:alt" content="RealTouch Electronics in  Nairobi">
+<meta name="twitter:description" content="Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.
+ We are located at Princely house next to MKU tower...">
+
+
+
+<meta property="og:site_name" content="realtouchelectronics">
+<meta property="og:type" content="website">
+<meta property="og:title" content="RealTouch Electronics in  Nairobi">
+<meta property="og:description" content="Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.
+ We are located at Princely house next to MKU tower...">
+<meta property="og:image" content="https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png">
+<meta property="og:url" content="https://realtouchelectronics.websites.co.in">
+
+
+
+
+<meta name="geo.position" content="-1.2832533;36.8172449">
+<meta name="geo.placename" content="Nairobi">
+<meta name="geo.region" content="KE">
+    <title>RealTouch Electronics in  Nairobi </title>
+
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://realtouchelectronics.websites.co.in/files/1690762/favicon/favicon.png?v=694755303" type="image/png" />
+
+    <!-- fonts -->
+    <link rel="preload" as="font" href="//fonts.googleapis.com/css?family=Montserrat:400,700" onload="this.rel='stylesheet'">
+
+    <!-- styles -->
+    <link href="https://realtouchelectronics.websites.co.in/dummytemplate/css/bootstrap.min.css?v=624612898" rel="stylesheet" type="text/css">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+    <link media="none" onload="if(media!='all')media='all'"href="https://realtouchelectronics.websites.co.in/dummytemplate/css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+    <link media="none" onload="if(media!='all')media='all'"href="https://realtouchelectronics.websites.co.in/dummytemplate/plugins/slick/slick.css" rel="stylesheet" type="text/css">
+    <link media="none" onload="if(media!='all')media='all'"href="https://realtouchelectronics.websites.co.in/dummytemplate/plugins/slick/slick-theme.css" rel="stylesheet" type="text/css">
+
+    <!-- theme stylesheet -->
+    <link href="https://realtouchelectronics.websites.co.in/dummytemplate/css/main.css?v=2130493069" rel="stylesheet" type="text/css">
+    
+    <!-- your stylesheet with modifications -->
+    
+    
+    <link href="https://realtouchelectronics.websites.co.in/dummytemplate/css/custom.min.css?v=883378604" rel="stylesheet">
+
+    
+    
+    <link rel="stylesheet" href="https://realtouchelectronics.websites.co.in/dummytemplate/css/ecommerce.min.css?v=749357914"> 
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.7.0/css/flag-icons.min.css">
+    
+    <link media="none" onload="if(media!='all')media='all'"rel="stylesheet" href="https://realtouchelectronics.websites.co.in/common/css/custom-toast.css">
+
+    
+    <link media="none" onload="if(media!='all')media='all'"rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+
+    <!-- manifest request -->
+    <link rel="manifest" href="/manifest.json?theme_color=%23101010">
+
+    <link rel="canonical" href="https://realtouchelectronics.websites.co.in/index.php">
+
+    <link rel="alternate" href="https://realtouchelectronics.websites.co.in" hreflang="en-us">
+    <style>
+        #servicio-container > div.userInfo > div.edit-icon-container > a.btn.btn-outline-primary{
+            border: 1px solid #e76c3c !important
+        }
+        @media (max-width: 380px){
+                #servicio-container > div.userInfo > div.edit-icon-container > a.btn.btn-primary{
+                    font-size: 0.6rem !important;
+                }
+                #servicio-container > div.userInfo > div.edit-icon-container > a.btn.btn-outline-primary{
+                    font-size: 0.6rem !important;
+                }
+            }
+        @media (max-width: 430px){
+            #menu > div > div.navbar-header > div:nth-child(3) > a{
+                right: -88px !important;
+            }
+            #navbar-cart > div{
+                left: 110px !important;
+            }
+            #menu > div > div.navbar-header > div:nth-child(3) > div.login{
+                left: 178px !important;
+            }
+            #login > a > div > small{
+                display: none !important
+            }
+        }
+        
+    </style>
+    
+                <!-- Dynamic styles -->
+    <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+    // Create a script element
+    const customScript = document.createElement('script');
+    
+    // Set the script content with your logic
+    customScript.textContent = `
+        console.log('here we are in dom loaded');
+                    let db_colors = {"primary":"#e76c3c","secondary":"#080808","hover_primary":"#944526","hover_secondary":"#575656"};
+            if (db_colors) {
+                applyColors(db_colors);
+            }
+                console.log('here we are in dom loaded 2 ');
+        window.addEventListener('message', function (event) {
+            let preview_color = null;
+            // 
+            if (event.origin !== "https://websites.co.in") return;
+            // 
+            if (event?.data?.colors) {
+                preview_color = event.data.colors;
+                // console.log('here is my data ',preview_color);
+                applyColors(preview_color);
+            }
+        },false);
+        console.log('here we are in dom loaded 3');
+        handleTemplateStyleDataFromAndroid('');
+        console.log('here we are in dom loaded 4');
+        function handleTemplateStyleDataFromAndroid(data) {
+            console.log('you call JS "handleTemplateStyleDataFromAndroid" method from webview');
+            console.log("Received data from Android:", data);
+            console.log(' type of this data is ',typeof(data));
+            let preview_color_android = null;
+            // 
+            // 
+            // 
+            try {
+                    const parsedData = JSON.parse(data);
+                    if (parsedData?.colors) {
+                        preview_color_android = parsedData.colors;
+                        applyColors(preview_color_android);
+                    }
+                } catch (error) {
+                    console.error('Error parsing JSON data:', error);
+                }
+        }
+
+        function applyColors(colors){
+            // console.log('applyColors -> ', colors);
+            // array to store CSS variable declarations
+            // Add primary color
+            const cssVariables = [];
+            if (colors.primary) {
+                cssVariables.push(\`--primary: \${colors.primary} !important;\`);
+                cssVariables.push(\`--hover_primary: \${colors.hover_primary || colors.primary} !important;\`);
+            }
+
+            // Add secondary color
+            if (colors.secondary) {
+                cssVariables.push(\`--secondary: \${colors.secondary} !important;\`);
+                cssVariables.push(\`--hover_secondary: \${colors.hover_secondary || colors.secondary} !important;\`);
+            }
+            // Join the array into a string and update CSS variables
+            document.getElementById('custom_style_customizations').textContent = \` :root {
+                \${cssVariables.join('\\n')}
+            } \`;
+        }
+    `;
+    
+    // Append the script element to the body
+    document.body.appendChild(customScript); 
+});
+
+</script>
+
+<style id="custom_style_customizations">
+</style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Analytics -->
+    <script async> 
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-98172888-1', 'auto'); ga('send', 'pageview');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GH0QDVRYC5"></script>
+<script>
+     window.dataLayer = window.dataLayer || [];
+
+     function gtag() {
+     dataLayer.push(arguments);
+     }
+     gtag('js', new Date());
+
+     gtag('config', 'G-GH0QDVRYC5');
+     // gtag('config', 'UA-98172888-1');
+</script>
+<!-- GA4 end -->    <!-- GA4 end -->
+
+    <!-- Flutterwave -->
+    <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<script
+        id="fsc-api"
+        src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.1/fastspring-builder.min.js"
+        type="text/javascript"
+        data-storefront="websites.onfastspring.com/popup-websites"
+        data-error-callback="fscErrorCallback"
+        data-popup-closed="fscPopupClosed">
+    </script>
+
+ <script>
+var s = {
+                'products' : [
+                                {
+                                    'path':book,
+                                    'quantity': 1
+                                }
+                ],
+                'checkout': true
+            }
+            fastspring.builder.push(s);
+        });
+</script> -->
+
+<!-- Flutterwave -->
+<script src="https://checkout.flutterwave.com/v3.js"></script>
+
+    <!-- Facebook Pixel Code -->
+    <!-- <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','//connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '208608892996577');
+        fbq('track', 'PageView');
+    </script>
+    
+    <noscript>
+        <img height="1" width="1" style="display:none" 
+            src="//www.facebook.com/tr?id=208608892996577&ev=PageView&noscript=1"/>
+    </noscript> -->
+
+    <!-- Google Ads -->
+    
+    
+    </head>
+
+<body>
+
+    
+    <input type="hidden" class="__website_id" id="website_id" value="1690762">
+    
+            <input type="hidden" id="businessdetails_id" value="1691421">
+    
+    
+    <script type='application/ld+json'>
+    {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "RealTouch Electronics",
+        "url": "https://realtouchelectronics.websites.co.in",
+        "sameAs": [
+            ""
+        ],
+        "priceRange":"$$$",
+         "telephone":"+254722514813",    
+        "logo": {
+            "@type": "ImageObject",
+            "caption": "RealTouch Electronics"
+            , "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png"         },
+        "image": {
+            "@type": "ImageObject",
+            "caption": "RealTouch Electronics",
+             "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png",             "url": "https://realtouchelectronics.websites.co.in"
+        },
+        "description": "Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6.",
+        "address": {
+            "@type": "PostalAddress",
+             "streetAddress": "Nairobi Princely house next to MKU towers 1st floor",              "addressLocality": "Nairobi",              "addressRegion": "Nairobi",              "postalCode": "80100",              "addressCountry": "Kenya"         },
+        "review": {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "RealTouch Electronics"
+            }
+        },
+                    "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "-1.2832533",
+                "longitude": "36.8172449"
+            },
+                            "openingHoursSpecification": [
+                                                            {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Monday",
+                            "opens": " 08:00 ",
+                            "closes": " 18:30 "
+                        },                                                                                {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Tuesday",
+                            "opens": " 08:00 ",
+                            "closes": ""
+                        },                                                                                {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Wednesday",
+                            "opens": " 08:00 ",
+                            "closes": ""
+                        },                                                                                {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Thursday",
+                            "opens": " 08:30 ",
+                            "closes": ""
+                        },                                                                                {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Friday",
+                            "opens": " 08:00 ",
+                            "closes": ""
+                        },                                                                                {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Saturday",
+                            "opens": " 09:00 ",
+                            "closes": ""
+                        },                                                                                {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Sunday",
+                            "opens": "00:00",
+                            "closes": "00:00"
+                        }                                                ],
+                 "email": "realtouch59@gmail.com",                     "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+254722514813",
+                "contactType": "sales"
+            }
+            }
+</script>    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://realtouchelectronics.websites.co.in",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://realtouchelectronics.websites.co.in/search/all/{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+
+            <div class="navbar-buttons" style="float: left; margin-left: 8px;">
+                <button 
+                    type="button" 
+                    class="navbar-toggle collapsed" 
+                    data-toggle="collapse" 
+                    data-target="#navbar" 
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <a class="navbar-brand home" href="https://realtouchelectronics.websites.co.in" data-animate-hover="bounce">   
+                                    <img src="https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png?v=1761973417" 
+                        alt="RealTouch Electronics" 
+                        id="mob-nav-logo"
+                        class="logo-size">
+                  
+            </a>
+
+            <div style="position: absolute; right: 10em;">
+                <a class="show-search" href="#" style="top: 20px; position: relative; right: 20px;">
+                    <i class="fas fa-search"></i>
+                </a>
+    
+                            </div>
+
+            
+        </div>
+
+                    <div class="collapse navbar-collapse" id="navbar">
+                <!-- Level 1 -->
+                <ul class="nav navbar-nav navbar-left">
+                                        
+                                                    <li class="active">
+                                <a title="go to Home" href="https://realtouchelectronics.websites.co.in">
+                                    Home
+                                </a>
+                            </li>
+                                                                
+                                                    <li class="">
+                                <a title="go to Updates" href="https://realtouchelectronics.websites.co.in/updates/list">
+                                    Updates
+                                </a>
+                            </li>
+                                                                
+                                                    <li class="">
+                                <a title="go to Products" href="https://realtouchelectronics.websites.co.in/products/list">
+                                    Products
+                                </a>
+                            </li>
+                                                                
+                                                    <li class="">
+                                <a title="go to Contact" href="https://realtouchelectronics.websites.co.in/contact">
+                                    Contact
+                                </a>
+                            </li>
+                                                                
+                                                    <li class="">
+                                <a title="go to Media" href="https://realtouchelectronics.websites.co.in/media/list">
+                                    Media
+                                </a>
+                            </li>
+                                                                
+                </ul>
+            </div>
+        
+        
+        
+            
+        
+
+        <div class="search-content" id="hide-search">
+            <span class="close close-search">
+                <i class="fas fa-times"></i>
+            </span>
+            <div class="search-text">
+
+                <form id="search-form">
+                    <input class="search-box" type="text" title="enter search term" placeholder="Search products, updates etc." name="query" id="query">
+
+                    <div class="radio-inline mt-10 ml-3">
+                        <label class="fs-16 pl-10">
+                            <input type="radio" name="type" class="radio-style" id="products" value="products" checked> 
+
+                            
+                                                            Products
+                                                    </label>
+                    </div>
+                    <div class="radio-inline mt-10 ml-3">
+                        <label class="fs-16 pl-10">
+                            <input type="radio" name="type" class="radio-style" id="updates" value="updates"> 
+
+                            
+                                                            Updates
+                                                    </label>
+                    </div>
+                    <div class="radio-inline mt-10 ml-3">
+                        <label class="fs-16 pl-10">
+                            <input type="radio" name="type" class="radio-style" id="media" value="media"> 
+                            
+                            
+                                                            Media
+                                                    </label>
+                    </div>
+                    <div class="radio-inline mt-10 ml-3">
+                        <label class="fs-16 pl-10">
+                            <input type="radio" name="type" class="radio-style" id="pages" value="pages"> Pages
+                        </label>
+                    </div>
+                    <div class="radio-inline mt-10 ml-3">
+                        <label class="fs-16 pl-10">
+                            <input type="radio" name="type" class="radio-style" id="all" value="all"> All
+                        </label>
+                    </div>
+
+                    <button class="btn" title="search" type="button" id="btn-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    
+    
+            
+        <header id="header">
+            <div id="background-slider">
+                                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112121620350701zVYgv/desktop.png?v=91384930" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112121620350701zVYgv/master.png?v=669133424'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121235126602020z2kJ/desktop.png?v=219914872" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121235126602020z2kJ/master.png?v=770649799'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123512973709uZCQP/desktop.png?v=1055044559" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123512973709uZCQP/master.png?v=684147919'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123514424533ABCp3/desktop.png?v=1899006880" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123514424533ABCp3/master.png?v=1246999594'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121235146422060awBJ/desktop.png?v=292192937" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121235146422060awBJ/master.png?v=1347753580'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121238410023885vjc3/desktop.png?v=276352681" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121238410023885vjc3/master.png?v=1959441224'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123841257172OHsTC/desktop.png?v=1954809100" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123841257172OHsTC/master.png?v=1247211955'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121238417671880fHke/desktop.png?v=837498197" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121238417671880fHke/master.png?v=1033620306'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123841550923y3CrC/desktop.png?v=590949600" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123841550923y3CrC/master.png?v=2011381609'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123842136132qo3Ds/desktop.png?v=592267438" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123842136132qo3Ds/master.png?v=530224013'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123842671924XjtQX/desktop.png?v=1658681422" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112123842671924XjtQX/master.png?v=152522291'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121252378041185Wrp3/desktop.png?v=745342866" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/202401121252378041185Wrp3/master.png?v=3986616'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112125237772058oiMuH/desktop.png?v=1669955723" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112125237772058oiMuH/master.png?v=1394961062'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112125238050289E2Afu/desktop.png?v=1790450630" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112125238050289E2Afu/master.png?v=2018790804'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112125238018917cWDJV/desktop.png?v=1759363118" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112125238018917cWDJV/master.png?v=2100278958'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                            <div class="slick-slider-img">
+                            <img 
+        class="slick-img-zoom"
+        src="https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112125238112673EPpMV/desktop.png?v=290705027" 
+        onerror="this.src='https://realtouchelectronics.websites.co.in/files/1690762/carousel/20240112125238112673EPpMV/master.png?v=780619771'"
+        alt="desktop.png"
+        title="desktop.png">
+
+<div class="slider--overlay slick--overlay--zoom">
+    <div class="slider--custom--content">
+        <div class="custom__text">
+            
+                    </div>
+    </div>
+</div>                        </div>
+                                                </div>
+        </header>
+    
+    
+    
+    
+    
+            <div class="container mt-7">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-body text-center">
+                        <div>
+                            <h1 class="business-name">
+                                                                    RealTouch Electronics
+                                                            </h1>
+
+                            <p class="business-desc">
+                                Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.
+ We are located at Princely house next to MKU towers, 1st floor F6.
+                            </p>
+
+                            <a href="javascript:void(0);" 
+                                title="open enquiry form"
+                                onclick="openSendMessageForm()" 
+                                class="btn btn-custom btn-md page-scroll">
+                                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                                Make Enquiry
+                            </a>
+                            <br><br>
+                            
+                                                            <a title="call +254722514813"
+                                    href="tel:+254722514813"
+                                    class="_click_record hidden-md hidden-lg"
+                                    data-websiteid="1690762"
+                                    data-type="phone">
+                                    <button class="btn btn-custom">
+                                        Call Us
+                                    </button>
+                                </a>
+                            
+                                                            <a title="mail to realtouch59@gmail.com"
+                                    href="mailto:realtouch59@gmail.com"
+                                    class="_click_record hidden-md hidden-lg"
+                                    data-websiteid="1690762"
+                                    data-type="email">
+                                    <button class="btn btn-custom">
+                                        Mail Us
+                                    </button>
+                                </a>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+                
+    
+    
+    
+                        <div id="updates">
+                <div class="section-title text-center center" style="background-image: url(/files/1690762/carousel/202401121235126602020z2kJ/master.png)">
+                    
+                                            <div class="overlay">
+                            <h2>Our Updates</h2>
+                            <p>
+                                What we have been up to? 
+                                <a title="RealTouch Electronics updates" 
+                                    href="https://realtouchelectronics.websites.co.in/updates/list">
+                                    Check our updates!
+                                </a>
+                            </p>
+                        </div>
+                                    </div>
+                <div class="container">
+                    <div class="col-sm-12">
+                        <div class="row card-center">  
+                            <!-- Updates -->
+                            
+                                                                                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <div class="update-card card-part text-center">
+
+                                            <h3 class="card-title word-wrap">
+                                                <a href="https://realtouchelectronics.websites.co.in/update/welcome-to-realtouch-electronics/2306040">
+                                                    
+                                                    <span>
+                                                        Welcome to RealTouch Electronics
+                                                    </span>
+                                                </a>
+                                            </h3>
+                                            <small class="small">
+                                                By
+                                                <a href="#">
+                                                    <span>RealTouch Electronics</span>
+                                                </a>
+                                            </small>
+                                            
+
+                                            <div class="">
+                                                                                                    <div class="card-body no-display" id="update-video-div-2306040">
+                                                        <div>
+                                                            <div class="update-image">
+                                                                <a href="https://realtouchelectronics.websites.co.in/update/welcome-to-realtouch-electronics/2306040">
+                                                                    <img src="https://realtouchelectronics.websites.co.in/update/welcome-to-realtouch-electronics/2306040" 
+                                                                        class="mx-auto" 
+                                                                        alt="https://realtouchelectronics.websites.co.in/update/welcome-to-realtouch-electronics/2306040"
+                                                                        id="update-video-thumb-2306040">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <input type="hidden" class="update-data" data-id="2306040" id="update-data-2306040" value="This is RealTouch Electronics website created by RealTouch.
+                                                        RealTouch Electronics falls in LOCAL BUSINESS line of business.
+                                                        You can visit us offline at our office located at : Nairobi 
+Princely house next to MKU towers 1st floor, Nairobi, Nairobi, Kenya - 80100
+                                                        You can contact us by phone - 723162352 or email us on realtouch59@gmail.com or use the Contact Form.
+                                                        This is your first post. Edit or delete it, then start writing!">
+
+                                                    <div id="update-data-div-2306040" class="update-card-video-text-overflow card-word-wrap">
+                                                        <p class="overflow-wrap-break-word">
+                                                            This is RealTouch Electronics website created by RealTouch.
+                                                        RealTouch Electronics falls in LOC...
+                                                        </p>
+                                                    </div>
+                                                                                            </div>
+
+                                            <div class="">
+                                                <a href="https://realtouchelectronics.websites.co.in/update/welcome-to-realtouch-electronics/2306040" 
+                                                    title="read more about Welcome to RealTouch Electronics"
+                                                    class="btn btn-default card-btn">
+                                                    Continue reading...
+                                                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "BlogPosting",
+                "headline": "Welcome to RealTouch Electronics",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png"
+                },
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://realtouchelectronics.websites.co.in/update/welcome-to-realtouch-electronics/2306040"
+                },
+                "description": "This is RealTouch Electronics website created by RealTouch.                                                         RealTouch Electronics falls in LOCAL BUSINESS line of business....",
+                "datePublished": "2024-01-08 12:50:39",
+                "dateModified": "2024-01-08 12:50:39",
+                "author": {
+                    "@type": "Organization",
+                    "name": "RealTouch Electronics"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "RealTouch Electronics",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png"
+                    }
+                },
+                "articleSection": [
+                                    ]
+            }
+        </script>
+                                                                                                                                                                </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+    
+    
+                        <div id="products">
+                <div class="section-title text-center center" style="background-image: url(/files/1690762/carousel/20240112121620350701zVYgv/master.png)">
+                    
+                                            <div class="overlay">
+                            <h2>Our Products</h2>
+                            <p>
+                                Our extensive product line. 
+                                <a title="RealTouch Electronics products" 
+                                    href="https://realtouchelectronics.websites.co.in/products/list">
+                                    Check our products!
+                                </a>
+                            </p>
+                        </div>
+                                    </div>
+
+                
+                <div class="container">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="product-slider"> 
+                                
+                                                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <div class="product">
+                                                 
+                                                   <div>
+                                                        <div class="bg-grey">
+                                                            <a href="https://realtouchelectronics.websites.co.in/products/flexible-keyboard/398454" class="">
+                                                                <img 
+                                                                    src="https://realtouchelectronics.websites.co.in/files/1690762/products/398454/flexible-k_17049695343JMFkl.png" 
+                                                                    alt="flexible-k_17049695343JMFkl.png" 
+                                                                    class="mx-auto max-175">
+                                                            </a>
+                                                        </div>
+                                                    </div>        
+                                                
+                                                <div class="caption text-center">
+                                                    <h3 class="fs-11">
+                                                        <a title="view flexible keyboard" href="https://realtouchelectronics.websites.co.in/products/flexible-keyboard/398454">
+                                                            <span>
+                                                                flexible keyboard
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+
+                                                    
+                                                    
+                                                    <p class="price">
+                                                    
+													                                                        &nbsp;
+                                                                                                                     KES     
+                                                                                                                            1100.00
+                                                                                                                                                                                                                                                                                        </p>
+
+                                                    <h3 class="font-size-12">
+                                                        
+                                                        
+                                                                                                                    <span class="label label-info">PRODUCT</span>
+                                                                                                            </h3>
+                                                </div>
+
+                                                <div class="text-center">
+                                                    
+                                                                                                        
+                                                    
+                                                                                                            <button data-id="398454"
+                                                            data-name="flexible keyboard"
+                                                            data-unit=""
+                                                            data-btn=" 0 " 
+                                                            title="flexible keyboard"
+                                                            class="order-modal bottom-attached-btn">
+                                                            <i class="fa fa-file-alt" aria-hidden="true"></i>
+                                                                                                                            Enquire Now
+                                                                                                                    </button>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <script type="application/ld+json">
+    {
+        "@context": "http://schema.org/", 
+        "@type": "Product", 
+        "name": "flexible keyboard",
+        "image": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png",
+        "description": "",
+        "brand": {
+            "@type": "Thing",
+            "name": "RealTouch Electronics"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "KES",
+            "lowPrice": "1100.00",
+            "highPrice": "1100.00",
+            "offerCount": "1",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "url": "https://realtouchelectronics.websites.co.in/products/flexible-keyboard/398454"
+                }
+            ]
+        }
+                
+                ,"category": {
+            "@type": "Thing",
+            "name": "Dell Keyboard"
+          }
+            }
+</script>
+
+
+
+
+                                    </div>
+                                                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <div class="product">
+                                                 
+                                                   <div>
+                                                        <div class="bg-grey">
+                                                            <a href="https://realtouchelectronics.websites.co.in/products/wireless-mouse-and-keyboard-kit/398411" class="">
+                                                                <img 
+                                                                    src="https://realtouchelectronics.websites.co.in/files/1690762/products/398411/wireless-m_1704964511pLilXh.png" 
+                                                                    alt="wireless-m_1704964511pLilXh.png" 
+                                                                    class="mx-auto max-175">
+                                                            </a>
+                                                        </div>
+                                                    </div>        
+                                                
+                                                <div class="caption text-center">
+                                                    <h3 class="fs-11">
+                                                        <a title="view wireless mouse and keyboard kit" href="https://realtouchelectronics.websites.co.in/products/wireless-mouse-and-keyboard-kit/398411">
+                                                            <span>
+                                                                wireless mouse and keyboard kit
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+
+                                                    
+                                                    
+                                                    <p class="price">
+                                                    
+													                                                        &nbsp;
+                                                                                                                     KES     
+                                                                                                                            1300.00
+                                                                                                                                                                                                                                                                                        </p>
+
+                                                    <h3 class="font-size-12">
+                                                        
+                                                        
+                                                                                                                    <span class="label label-info">PRODUCT</span>
+                                                                                                            </h3>
+                                                </div>
+
+                                                <div class="text-center">
+                                                    
+                                                                                                        
+                                                    
+                                                                                                            <button data-id="398411"
+                                                            data-name="wireless mouse and keyboard kit"
+                                                            data-unit=""
+                                                            data-btn=" 0 " 
+                                                            title="wireless mouse and keyboard kit"
+                                                            class="order-modal bottom-attached-btn">
+                                                            <i class="fa fa-file-alt" aria-hidden="true"></i>
+                                                                                                                            Enquire Now
+                                                                                                                    </button>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <script type="application/ld+json">
+    {
+        "@context": "http://schema.org/", 
+        "@type": "Product", 
+        "name": "wireless mouse and keyboard kit",
+        "image": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png",
+        "description": "",
+        "brand": {
+            "@type": "Thing",
+            "name": "RealTouch Electronics"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "KES",
+            "lowPrice": "1300.00",
+            "highPrice": "1300.00",
+            "offerCount": "1",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "url": "https://realtouchelectronics.websites.co.in/products/wireless-mouse-and-keyboard-kit/398411"
+                }
+            ]
+        }
+                
+                ,"category": {
+            "@type": "Thing",
+            "name": "Mini Keyboard"
+          }
+            }
+</script>
+
+
+
+
+                                    </div>
+                                                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <div class="product">
+                                                 
+                                                   <div>
+                                                        <div class="bg-grey">
+                                                            <a href="https://realtouchelectronics.websites.co.in/products/gamepad-dual-shock3-ps3/397746" class="">
+                                                                <img 
+                                                                    src="https://realtouchelectronics.websites.co.in/files/1690762/products/397746/gamepad-du_1704961322V3JpnL.png" 
+                                                                    alt="gamepad-du_1704961322V3JpnL.png" 
+                                                                    class="mx-auto max-175">
+                                                            </a>
+                                                        </div>
+                                                    </div>        
+                                                
+                                                <div class="caption text-center">
+                                                    <h3 class="fs-11">
+                                                        <a title="view gamepad dual shock3 PS3" href="https://realtouchelectronics.websites.co.in/products/gamepad-dual-shock3-ps3/397746">
+                                                            <span>
+                                                                gamepad dual shock3 PS3
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+
+                                                    
+                                                    
+                                                    <p class="price">
+                                                    
+													                                                        &nbsp;
+                                                                                                                     KES     
+                                                                                                                            1300.00
+                                                                                                                                                                                                                                                                                        </p>
+
+                                                    <h3 class="font-size-12">
+                                                        
+                                                        
+                                                                                                                    <span class="label label-info">PRODUCT</span>
+                                                                                                            </h3>
+                                                </div>
+
+                                                <div class="text-center">
+                                                    
+                                                                                                        
+                                                    
+                                                                                                            <button data-id="397746"
+                                                            data-name="gamepad dual shock3 PS3"
+                                                            data-unit=""
+                                                            data-btn=" 0 " 
+                                                            title="gamepad dual shock3 PS3"
+                                                            class="order-modal bottom-attached-btn">
+                                                            <i class="fa fa-file-alt" aria-hidden="true"></i>
+                                                                                                                            Enquire Now
+                                                                                                                    </button>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <script type="application/ld+json">
+    {
+        "@context": "http://schema.org/", 
+        "@type": "Product", 
+        "name": "gamepad dual shock3 PS3",
+        "image": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png",
+        "description": "",
+        "brand": {
+            "@type": "Thing",
+            "name": "RealTouch Electronics"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "KES",
+            "lowPrice": "1300.00",
+            "highPrice": "1300.00",
+            "offerCount": "1",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "url": "https://realtouchelectronics.websites.co.in/products/gamepad-dual-shock3-ps3/397746"
+                }
+            ]
+        }
+                
+                ,"category": {
+            "@type": "Thing",
+            "name": "Gamepad Ucom"
+          }
+            }
+</script>
+
+
+
+
+                                    </div>
+                                                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <div class="product">
+                                                 
+                                                   <div>
+                                                        <div class="bg-grey">
+                                                            <a href="https://realtouchelectronics.websites.co.in/products/25-256-ssd/397736" class="">
+                                                                <img 
+                                                                    src="https://realtouchelectronics.websites.co.in/files/1690762/products/397736/25-256-ss_1704961371k37eX1.png" 
+                                                                    alt="25-256-ss_1704961371k37eX1.png" 
+                                                                    class="mx-auto max-175">
+                                                            </a>
+                                                        </div>
+                                                    </div>        
+                                                
+                                                <div class="caption text-center">
+                                                    <h3 class="fs-11">
+                                                        <a title="view 2.5 256 SSD" href="https://realtouchelectronics.websites.co.in/products/25-256-ssd/397736">
+                                                            <span>
+                                                                2.5 256 SSD
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+
+                                                    
+                                                    
+                                                    <p class="price">
+                                                    
+													                                                        &nbsp;
+                                                                                                                     KES     
+                                                                                                                            3300.00
+                                                                                                                                                                                                                                                                                        </p>
+
+                                                    <h3 class="font-size-12">
+                                                        
+                                                        
+                                                                                                                    <span class="label label-info">PRODUCT</span>
+                                                                                                            </h3>
+                                                </div>
+
+                                                <div class="text-center">
+                                                    
+                                                                                                        
+                                                    
+                                                                                                            <button data-id="397736"
+                                                            data-name="2.5 256 SSD"
+                                                            data-unit=""
+                                                            data-btn=" 0 " 
+                                                            title="2.5 256 SSD"
+                                                            class="order-modal bottom-attached-btn">
+                                                            <i class="fa fa-file-alt" aria-hidden="true"></i>
+                                                                                                                            Enquire Now
+                                                                                                                    </button>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <script type="application/ld+json">
+    {
+        "@context": "http://schema.org/", 
+        "@type": "Product", 
+        "name": "2.5 256 SSD",
+        "image": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png",
+        "description": "",
+        "brand": {
+            "@type": "Thing",
+            "name": "RealTouch Electronics"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "KES",
+            "lowPrice": "3300.00",
+            "highPrice": "3300.00",
+            "offerCount": "1",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "url": "https://realtouchelectronics.websites.co.in/products/25-256-ssd/397736"
+                }
+            ]
+        }
+                
+                ,"category": {
+            "@type": "Thing",
+            "name": "Harddisks"
+          }
+            }
+</script>
+
+
+
+
+                                    </div>
+                                                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <div class="product">
+                                                 
+                                                   <div>
+                                                        <div class="bg-grey">
+                                                            <a href="https://realtouchelectronics.websites.co.in/products/hp-elitebook-830-g5corei56th-gen8gbram256ssd/397735" class="">
+                                                                <img 
+                                                                    src="https://realtouchelectronics.websites.co.in/files/1690762/products/397735/hp-elitebo_1704961467hX9Ef9.png" 
+                                                                    alt="hp-elitebo_1704961467hX9Ef9.png" 
+                                                                    class="mx-auto max-175">
+                                                            </a>
+                                                        </div>
+                                                    </div>        
+                                                
+                                                <div class="caption text-center">
+                                                    <h3 class="fs-11">
+                                                        <a title="view Hp Elitebook 830 G5/corei5/6th gen/8gbRam/256ssd" href="https://realtouchelectronics.websites.co.in/products/hp-elitebook-830-g5corei56th-gen8gbram256ssd/397735">
+                                                            <span>
+                                                                Hp Elitebook 830 G5/corei5/6th gen/8gbRa...
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+
+                                                    
+                                                    
+                                                    <p class="price">
+                                                    
+													                                                        &nbsp;
+                                                                                                                     KES     
+                                                                                                                            32000.00
+                                                                                                                                                                                                                                                                                        </p>
+
+                                                    <h3 class="font-size-12">
+                                                        
+                                                        
+                                                                                                                    <span class="label label-info">PRODUCT</span>
+                                                                                                            </h3>
+                                                </div>
+
+                                                <div class="text-center">
+                                                    
+                                                                                                        
+                                                    
+                                                                                                            <button data-id="397735"
+                                                            data-name="Hp Elitebook 830 G5/corei5/6th gen/8gbRam/256ssd"
+                                                            data-unit=""
+                                                            data-btn=" 0 " 
+                                                            title="Hp Elitebook 830 G5/corei5/6th gen/8gbRam/256ssd"
+                                                            class="order-modal bottom-attached-btn">
+                                                            <i class="fa fa-file-alt" aria-hidden="true"></i>
+                                                                                                                            Enquire Now
+                                                                                                                    </button>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <script type="application/ld+json">
+    {
+        "@context": "http://schema.org/", 
+        "@type": "Product", 
+        "name": "Hp Elitebook 830 G5/corei5/6th gen/8gbRam/256ssd",
+        "image": "https://realtouchelectronics.websites.co.in/files/1690762/business/logo/logo-1300345891.png",
+        "description": " For resallers and end users we got you covered ",
+        "brand": {
+            "@type": "Thing",
+            "name": "RealTouch Electronics"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "KES",
+            "lowPrice": "32000.00",
+            "highPrice": "32000.00",
+            "offerCount": "1",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "url": "https://realtouchelectronics.websites.co.in/products/hp-elitebook-830-g5corei56th-gen8gbram256ssd/397735"
+                }
+            ]
+        }
+                
+                ,"category": {
+            "@type": "Thing",
+            "name": "Hp laptop"
+          }
+            }
+</script>
+
+
+
+
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+    
+    
+                        <div id="media">
+                <div class="section-title text-center center" style="background-image: url(/files/1690762/carousel/202401121235126602020z2kJ/master.png)">
+                    
+                                            <div class="overlay">
+                            <h2>Our Media</h2>
+                            <p>
+                                Visuals speak louder than words. 
+                                <a title="RealTouch Electronics media" 
+                                    href="https://realtouchelectronics.websites.co.in/media/list">
+                                    Check our media!
+                                </a>
+                            </p>
+                        </div>
+                                    </div>
+
+                <div class="container">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="media-carousel">
+                                
+                                                                    
+                                                                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image-thumb-container">
+                                            <div>
+    <a title="realtouch-electronics_1704963036snW2ZP.png" href="javascript:void(0)">
+        <div class="image-thumb w-16-h-12-em-aspect box-shadow">
+            <img src="https://realtouchelectronics.websites.co.in/files/1690762/media/642803/realtouch-electronics_1704963036snW2ZP.png" 
+                alt="realtouch-electronics_1704963036snW2ZP.png" 
+                class="max-w-h-100-perc-width-auto mx-auto"
+                id="image-thumb-642803" 
+                name="image-thumb-642803">
+        </div>
+    </a>
+</div>
+
+<div class="zoom-icon">
+    <a href="https://realtouchelectronics.websites.co.in/files/1690762/media/642803/realtouch-electronics_1704963036snW2ZP.png" 
+        title="zoom image realtouch-electronics_1704963036snW2ZP.png"
+        data-fancybox="images" 
+        class="btn btn-default">
+        <i class="fas fa-search-plus fa-2x" aria-hidden="true"></i>
+    </a>
+</div>
+
+<div class="view-icon">
+    <a href="https://realtouchelectronics.websites.co.in/media/image/642803" 
+        title="view details of realtouch-electronics_1704963036snW2ZP.png"
+        class="btn btn-default">
+        <i class="fas fa-external-link-square-alt fa-2x" aria-hidden="true"></i>
+    </a>
+</div>                                            
+                                            <script type='application/ld+json'>
+    {
+        "@context": "http://schema.org/",
+        "@type": "MediaObject",
+        "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642803/realtouch-electronics_1704963036snW2ZP.png",
+        "embedUrl": "https://realtouchelectronics.websites.co.in/media/image/642803",
+        "uploadDate": "2024-01-11 14:20:36",
+        "author": "RealTouch Electronics",
+        "dateCreated": "2024-01-11 14:20:36",
+        "dateModified": "2024-01-11 14:20:37",
+        "datePublished": "2024-01-11 14:20:36",
+        "keywords": null,
+        "alternateName": "realtouch-electronics_1704963036snW2ZP.png",
+        "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. ",
+        "image": {
+            "@type": "ImageObject",
+            "caption": "realtouch-electronics_1704963036snW2ZP.png",
+            "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642803/realtouch-electronics_1704963036snW2ZP.png",
+            "uploadDate": "2024-01-11 14:20:36",
+            "datePublished": "2024-01-11 14:20:36",
+            "fileFormat": "jpg",
+            "keywords": null,
+            "position": "0",
+            "alternateName": "realtouch-electronics_1704963036snW2ZP.png",
+            "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. "
+        }
+    }
+</script>                                        </div>
+                                    
+                                    
+                                    
+                                    
+                                                                    
+                                                                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image-thumb-container">
+                                            <div>
+    <a title="realtouch-electronics_1704963009wX3aCB.png" href="javascript:void(0)">
+        <div class="image-thumb w-16-h-12-em-aspect box-shadow">
+            <img src="https://realtouchelectronics.websites.co.in/files/1690762/media/642801/realtouch-electronics_1704963009wX3aCB.png" 
+                alt="realtouch-electronics_1704963009wX3aCB.png" 
+                class="max-w-h-100-perc-width-auto mx-auto"
+                id="image-thumb-642801" 
+                name="image-thumb-642801">
+        </div>
+    </a>
+</div>
+
+<div class="zoom-icon">
+    <a href="https://realtouchelectronics.websites.co.in/files/1690762/media/642801/realtouch-electronics_1704963009wX3aCB.png" 
+        title="zoom image realtouch-electronics_1704963009wX3aCB.png"
+        data-fancybox="images" 
+        class="btn btn-default">
+        <i class="fas fa-search-plus fa-2x" aria-hidden="true"></i>
+    </a>
+</div>
+
+<div class="view-icon">
+    <a href="https://realtouchelectronics.websites.co.in/media/image/642801" 
+        title="view details of realtouch-electronics_1704963009wX3aCB.png"
+        class="btn btn-default">
+        <i class="fas fa-external-link-square-alt fa-2x" aria-hidden="true"></i>
+    </a>
+</div>                                            
+                                            <script type='application/ld+json'>
+    {
+        "@context": "http://schema.org/",
+        "@type": "MediaObject",
+        "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642801/realtouch-electronics_1704963009wX3aCB.png",
+        "embedUrl": "https://realtouchelectronics.websites.co.in/media/image/642801",
+        "uploadDate": "2024-01-11 14:20:09",
+        "author": "RealTouch Electronics",
+        "dateCreated": "2024-01-11 14:20:09",
+        "dateModified": "2024-01-11 14:20:10",
+        "datePublished": "2024-01-11 14:20:09",
+        "keywords": null,
+        "alternateName": "realtouch-electronics_1704963009wX3aCB.png",
+        "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. ",
+        "image": {
+            "@type": "ImageObject",
+            "caption": "realtouch-electronics_1704963009wX3aCB.png",
+            "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642801/realtouch-electronics_1704963009wX3aCB.png",
+            "uploadDate": "2024-01-11 14:20:09",
+            "datePublished": "2024-01-11 14:20:09",
+            "fileFormat": "jpg",
+            "keywords": null,
+            "position": "1",
+            "alternateName": "realtouch-electronics_1704963009wX3aCB.png",
+            "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. "
+        }
+    }
+</script>                                        </div>
+                                    
+                                    
+                                    
+                                    
+                                                                    
+                                                                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image-thumb-container">
+                                            <div>
+    <a title="realtouch-electronics_1704962997Z9vaTp.png" href="javascript:void(0)">
+        <div class="image-thumb w-16-h-12-em-aspect box-shadow">
+            <img src="https://realtouchelectronics.websites.co.in/files/1690762/media/642799/realtouch-electronics_1704962997Z9vaTp.png" 
+                alt="realtouch-electronics_1704962997Z9vaTp.png" 
+                class="max-w-h-100-perc-width-auto mx-auto"
+                id="image-thumb-642799" 
+                name="image-thumb-642799">
+        </div>
+    </a>
+</div>
+
+<div class="zoom-icon">
+    <a href="https://realtouchelectronics.websites.co.in/files/1690762/media/642799/realtouch-electronics_1704962997Z9vaTp.png" 
+        title="zoom image realtouch-electronics_1704962997Z9vaTp.png"
+        data-fancybox="images" 
+        class="btn btn-default">
+        <i class="fas fa-search-plus fa-2x" aria-hidden="true"></i>
+    </a>
+</div>
+
+<div class="view-icon">
+    <a href="https://realtouchelectronics.websites.co.in/media/image/642799" 
+        title="view details of realtouch-electronics_1704962997Z9vaTp.png"
+        class="btn btn-default">
+        <i class="fas fa-external-link-square-alt fa-2x" aria-hidden="true"></i>
+    </a>
+</div>                                            
+                                            <script type='application/ld+json'>
+    {
+        "@context": "http://schema.org/",
+        "@type": "MediaObject",
+        "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642799/realtouch-electronics_1704962997Z9vaTp.png",
+        "embedUrl": "https://realtouchelectronics.websites.co.in/media/image/642799",
+        "uploadDate": "2024-01-11 14:19:57",
+        "author": "RealTouch Electronics",
+        "dateCreated": "2024-01-11 14:19:57",
+        "dateModified": "2024-01-11 14:19:59",
+        "datePublished": "2024-01-11 14:19:57",
+        "keywords": null,
+        "alternateName": "realtouch-electronics_1704962997Z9vaTp.png",
+        "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. ",
+        "image": {
+            "@type": "ImageObject",
+            "caption": "realtouch-electronics_1704962997Z9vaTp.png",
+            "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642799/realtouch-electronics_1704962997Z9vaTp.png",
+            "uploadDate": "2024-01-11 14:19:57",
+            "datePublished": "2024-01-11 14:19:57",
+            "fileFormat": "jpg",
+            "keywords": null,
+            "position": "2",
+            "alternateName": "realtouch-electronics_1704962997Z9vaTp.png",
+            "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. "
+        }
+    }
+</script>                                        </div>
+                                    
+                                    
+                                    
+                                    
+                                                                    
+                                                                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image-thumb-container">
+                                            <div>
+    <a title="realtouch-electronics_17049628216rpLw1.png" href="javascript:void(0)">
+        <div class="image-thumb w-16-h-12-em-aspect box-shadow">
+            <img src="https://realtouchelectronics.websites.co.in/files/1690762/media/642798/realtouch-electronics_17049628216rpLw1.png" 
+                alt="realtouch-electronics_17049628216rpLw1.png" 
+                class="max-w-h-100-perc-width-auto mx-auto"
+                id="image-thumb-642798" 
+                name="image-thumb-642798">
+        </div>
+    </a>
+</div>
+
+<div class="zoom-icon">
+    <a href="https://realtouchelectronics.websites.co.in/files/1690762/media/642798/realtouch-electronics_17049628216rpLw1.png" 
+        title="zoom image realtouch-electronics_17049628216rpLw1.png"
+        data-fancybox="images" 
+        class="btn btn-default">
+        <i class="fas fa-search-plus fa-2x" aria-hidden="true"></i>
+    </a>
+</div>
+
+<div class="view-icon">
+    <a href="https://realtouchelectronics.websites.co.in/media/image/642798" 
+        title="view details of realtouch-electronics_17049628216rpLw1.png"
+        class="btn btn-default">
+        <i class="fas fa-external-link-square-alt fa-2x" aria-hidden="true"></i>
+    </a>
+</div>                                            
+                                            <script type='application/ld+json'>
+    {
+        "@context": "http://schema.org/",
+        "@type": "MediaObject",
+        "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642798/realtouch-electronics_17049628216rpLw1.png",
+        "embedUrl": "https://realtouchelectronics.websites.co.in/media/image/642798",
+        "uploadDate": "2024-01-11 14:17:01",
+        "author": "RealTouch Electronics",
+        "dateCreated": "2024-01-11 14:17:01",
+        "dateModified": "2024-01-11 14:17:02",
+        "datePublished": "2024-01-11 14:17:01",
+        "keywords": null,
+        "alternateName": "realtouch-electronics_17049628216rpLw1.png",
+        "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. ",
+        "image": {
+            "@type": "ImageObject",
+            "caption": "realtouch-electronics_17049628216rpLw1.png",
+            "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642798/realtouch-electronics_17049628216rpLw1.png",
+            "uploadDate": "2024-01-11 14:17:01",
+            "datePublished": "2024-01-11 14:17:01",
+            "fileFormat": "jpg",
+            "keywords": null,
+            "position": "3",
+            "alternateName": "realtouch-electronics_17049628216rpLw1.png",
+            "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. "
+        }
+    }
+</script>                                        </div>
+                                    
+                                    
+                                    
+                                    
+                                                                    
+                                                                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image-thumb-container">
+                                            <div>
+    <a title="realtouch-electronics_1704962810mhamtF.png" href="javascript:void(0)">
+        <div class="image-thumb w-16-h-12-em-aspect box-shadow">
+            <img src="https://realtouchelectronics.websites.co.in/files/1690762/media/642797/realtouch-electronics_1704962810mhamtF.png" 
+                alt="realtouch-electronics_1704962810mhamtF.png" 
+                class="max-w-h-100-perc-width-auto mx-auto"
+                id="image-thumb-642797" 
+                name="image-thumb-642797">
+        </div>
+    </a>
+</div>
+
+<div class="zoom-icon">
+    <a href="https://realtouchelectronics.websites.co.in/files/1690762/media/642797/realtouch-electronics_1704962810mhamtF.png" 
+        title="zoom image realtouch-electronics_1704962810mhamtF.png"
+        data-fancybox="images" 
+        class="btn btn-default">
+        <i class="fas fa-search-plus fa-2x" aria-hidden="true"></i>
+    </a>
+</div>
+
+<div class="view-icon">
+    <a href="https://realtouchelectronics.websites.co.in/media/image/642797" 
+        title="view details of realtouch-electronics_1704962810mhamtF.png"
+        class="btn btn-default">
+        <i class="fas fa-external-link-square-alt fa-2x" aria-hidden="true"></i>
+    </a>
+</div>                                            
+                                            <script type='application/ld+json'>
+    {
+        "@context": "http://schema.org/",
+        "@type": "MediaObject",
+        "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642797/realtouch-electronics_1704962810mhamtF.png",
+        "embedUrl": "https://realtouchelectronics.websites.co.in/media/image/642797",
+        "uploadDate": "2024-01-11 14:16:50",
+        "author": "RealTouch Electronics",
+        "dateCreated": "2024-01-11 14:16:50",
+        "dateModified": "2024-01-11 14:16:52",
+        "datePublished": "2024-01-11 14:16:50",
+        "keywords": null,
+        "alternateName": "realtouch-electronics_1704962810mhamtF.png",
+        "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. ",
+        "image": {
+            "@type": "ImageObject",
+            "caption": "realtouch-electronics_1704962810mhamtF.png",
+            "contentUrl": "https://realtouchelectronics.websites.co.in/files/1690762/media/642797/realtouch-electronics_1704962810mhamtF.png",
+            "uploadDate": "2024-01-11 14:16:50",
+            "datePublished": "2024-01-11 14:16:50",
+            "fileFormat": "jpg",
+            "keywords": null,
+            "position": "4",
+            "alternateName": "realtouch-electronics_1704962810mhamtF.png",
+            "description": " Its a electronics shop sells laptops, Keyboard, mouse, internal keyboard, Desktop, Cpu, Ram. Our Prices are favorable to a Re-saller and  end user.   We are located at Princely house next to MKU towers, 1st floor F6. "
+        }
+    }
+</script>                                        </div>
+                                    
+                                    
+                                    
+                                    
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+    
+                                    
+
+    
+    <div id="footer">
+    <div class="container text-center footer-text-color">
+
+        <div class="row">
+                                                                        <div class="col-md-3 col-sm-12 pb-20 mx-auto tag-area">
+                            <h3 class="pb-20">Quick Links</h3>
+                            <ul class="quick-links">
+                                                                                                            <li>
+                                            <a title="go to Home" 
+                                                href="https://realtouchelectronics.websites.co.in">
+                                                Home
+                                            </a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a title="go to Updates" 
+                                                href="https://realtouchelectronics.websites.co.in/updates/list">
+                                                Updates
+                                            </a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a title="go to Products" 
+                                                href="https://realtouchelectronics.websites.co.in/products/list">
+                                                Products
+                                            </a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a title="go to Contact" 
+                                                href="https://realtouchelectronics.websites.co.in/contact">
+                                                Contact
+                                            </a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a title="go to Media" 
+                                                href="https://realtouchelectronics.websites.co.in/media/list">
+                                                Media
+                                            </a>
+                                        </li>
+                                                                                                </ul>
+                        </div>
+                                                             
+                             <div class="col-md-3 col-sm-12 pb-20 mx-auto">  
+                    <h3 class="pb-20">Where to find us</h3>
+                    <p>
+                        <h5 class="fs-1-em display-inline">RealTouch Electronics</h5>
+
+                                                    Nairobi Princely house next to MKU towers 1st floor    
+                                                <br>
+                                                    KENYA
+                                                <br>
+                                                    Nairobi
+                        
+                                                    Nairobi
+                                                <br>
+                                                    Kenya - 
+                        
+                                                    80100
+                                            </p>
+    
+                    <a href="https://realtouchelectronics.websites.co.in/contact" class="btn btn-default theme-button">
+                        <i class="fas fa-handshake" aria-hidden="true"></i>
+                        Get In Touch
+                    </a>
+                 </div>
+                          
+                              <div class="col-md-3 col-sm-12 pb-20 mx-auto">
+                     <h3 class="pb-20">Opening Hours</h3>
+                     <table class="mx-auto table table-condensed borderless footer-text-color">
+                         <tbody>
+                                                                                                   <tr>
+                                         <td class="pr-2">
+                                                                                              Monday
+                                                                                      </td>
+                                         <td>
+                                              
+                                                 8:00 AM
+                                                                                              - 
+                                                                                              6:30 PM
+                                                                                      </td>
+                                     </tr>
+                                                                                                                                    <tr>
+                                         <td class="pr-2">
+                                                                                              Tuesday
+                                                                                      </td>
+                                         <td>
+                                              
+                                                 8:00 AM
+                                                                                              - 
+                                                                                      </td>
+                                     </tr>
+                                                                                                                                    <tr>
+                                         <td class="pr-2">
+                                                                                              Wednesday
+                                                                                      </td>
+                                         <td>
+                                              
+                                                 8:00 AM
+                                                                                              - 
+                                                                                      </td>
+                                     </tr>
+                                                                                                                                    <tr>
+                                         <td class="pr-2">
+                                                                                              Thursday
+                                                                                      </td>
+                                         <td>
+                                              
+                                                 8:30 AM
+                                                                                              - 
+                                                                                      </td>
+                                     </tr>
+                                                                                                                                    <tr>
+                                         <td class="pr-2">
+                                                                                              Friday
+                                                                                      </td>
+                                         <td>
+                                              
+                                                 8:00 AM
+                                                                                              - 
+                                                                                      </td>
+                                     </tr>
+                                                                                                                                    <tr>
+                                         <td class="pr-2">
+                                                                                              Saturday
+                                                                                      </td>
+                                         <td>
+                                              
+                                                 9:00 AM
+                                                                                              - 
+                                                                                      </td>
+                                     </tr>
+                                                                                                                                    <tr>
+                                         <td class="pr-2">
+                                                                                              Sunday
+                                                                                      </td>
+                                         <td>Closed</td>
+                                     </tr>
+                                                                                       <tbody>
+                     </table>
+                 </div>
+                  
+             <div class="col-md-3 col-sm-12 pb-20 mx-auto">
+                 <h3 class="pb-20">Get The News</h3>
+                 <p class="text-muted">
+                     Subscribe with us for latest updates
+                 </p>
+     
+                 <div class="alert alert-success alert-dismissable hide" id="subscribe-success-msg">
+                     <a href="javascript:void(0)" 
+                         class="close" 
+                         aria-label="close" 
+                         onclick="hideAlert('subscribe-success-msg','subscribe-success-msg-data');" 
+                         aria-hidden="true">
+                         &times;
+                     </a>
+                     <div id="subscribe-success-msg-data"></div>
+                 </div>
+     
+                 <div class="alert alert-danger alert-dismissable hide" id="subscribe-error-msg">
+                     <a href="javascript:void(0)" 
+                         class="close" 
+                         aria-label="close" 
+                         onclick="hideAlert('subscribe-error-msg','subscribe-error-msg-data');">
+                         &times;
+                     </a>
+                     <div id="subscribe-error-msg-data"></div>
+                 </div>
+     
+                 <form>
+                     <div class="input-group">
+     
+                         <input type="email" class="form-control" name="subscriber-email" id="subscriber-email">
+                         <input type="hidden" class="form-control" id="businessdetails_id" name="businessdetails_id" value="1691421" >
+                         <input type="hidden" class="form-control" id="website_id" name="website_id" value="1690762" >
+     
+                         <span class="input-group-btn">
+                             <button class="btn btn-default" type="button" id="subscribe" name="subscribe">
+                                 <div class="show" id="subscribe-btn-label">
+                                     Subscribe!
+                                 </div>
+     
+                                 <div class="hide" id="subscribe-spinner">
+                                     <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                                 </div>
+                             </button>
+                         </span>
+     
+                     </div>
+                 </form>
+     
+                 <h3>Stay In Touch</h3>
+                 <p class="social">
+     
+                      
+                     
+                      
+                     
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                              <span class="no-display">realtouch59@gmail.com</span>
+                         <a href="mailto:realtouch59@gmail.com" 
+                             title="mail to realtouch59@gmail.com"
+                             class="email external fs-07 p-10 _click_record" 
+                             data-websiteid="1690762" 
+                             data-type="email"
+                             data-animate-hover="pulse"><i class="fas fa-envelope"></i>
+                         </a>
+                          
+                                              <span class="no-display">+254722514813</span>
+                         <a href="tel:+254722514813" 
+                             title="call +254722514813"
+                             class="phone external fs-07 p-10 _click_record" 
+                             data-websiteid="1690762"
+                             data-type="phone" 
+                             data-animate-hover="pulse"><i class="fas fa-phone"></i>
+                         </a>
+                          
+                 </p>
+             </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9 col-sm-12 py-20">
+                            </div>
+
+            <div class="col-md-3 col-sm-12 text-right py-20">
+                
+                            </div>
+        </div>
+    </div>
+</div>
+
+            <section>
+                <div class="ui placeholder center aligned segment text-center py-20">
+                    <p>
+                        <strong>This site was designed with <a class="google-link"href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">Websites.co.in - Website Builder
+            </a><i class="fab fa-android"></i>
+                        </strong>
+                    </p>
+
+                    <a href="https://websites.co.in" class="" target="_blank">
+                        <button class="btn btn-custom">
+                            Create Your Free Website Instantly!
+                        </button>
+                    </a>
+                    </p>
+                </div>
+            </section>
+        
+    <div id="copyright-footer">
+    <div class="container-fluid text-center copyrights">
+        <div class="col-md-3 col-md-12">
+            <p class="no-margin">
+                &copy; 2024 
+                
+                                    <a href="https://realtouchelectronics.websites.co.in" target="_blank" rel="noopener">
+                        RealTouch Electronics
+                    </a>
+                            </p>
+        </div>
+
+        
+        <div class="col-md-3 col-md-12">
+        	<p class="no-margin">
+                                    <i class="fas fa-sitemap"></i>
+                    <a title="view sitemap" href="https://realtouchelectronics.websites.co.in/sitemap" target="_blank" rel="noopener">
+                        Sitemap
+                    </a>
+                        	</p>
+        </div>
+
+        <div class="col-md-3 col-md-12">
+        	<p class="no-margin">
+                                    <i class="far fa-chart-bar" aria-hidden="true"></i> 
+                    <span class="padding-full-5">1410</span> views
+                        	</p>
+        </div>
+
+        <div class="col-md-3 col-md-12">
+            <a href="javascript:void(0);" title="report this website" id="report-btn" rel="noopener">
+                <i class="fas fa-exclamation-circle"></i> Report abuse
+            </a>
+        </div>
+    </div>
+</div>
+    <div class="quick-float">
+            <a class="" 
+            target="_blank" 
+            rel="noopener nofollow" 
+            href="https://api.whatsapp.com/send?phone=254722514813&text=Hi, RealTouch Electronics need more information about RealTouch Electronics. please contact me.">
+            <img class="quick-float-icon" 
+                src="https://realtouchelectronics.websites.co.in/img/svg-icons/whatsapp.svg" 
+                alt="WhatsApp" 
+                title="message RealTouch Electronics on WhatsApp">
+        </a>
+        
+                                                            <a class="_click_record" 
+                        data-websiteid="1690762" 
+                        data-type="map" 
+                        target="_blank" 
+                        rel="noopener nofollow" 
+                        href="https://www.google.com/maps/?q=-1.2832533,36.8172449">
+                        <img class="quick-float-icon" 
+                            src="https://realtouchelectronics.websites.co.in/img/svg-icons/google.svg" 
+                            alt="Google Map" 
+                            title="view RealTouch Electronics on google map">
+                    </a>
+                                        </div>
+    <div class="popup">
+    <div id="popup" class="popup__content">
+        <div id="popup__close">
+            &#10005;
+        </div>
+                
+        <p class="popup__text"></p>
+        
+        <div class="hide popup__button__div">
+            <a  href="#" class="popup__button"></a>
+        </div>
+    </div>
+</div>    <!-- alerts -->
+    
+    
+    <div id="report-box" class="report-box">
+
+    <div class="report-box-header">
+        <h4>Safety and Abuse Reporting</h4>
+        <div id="report-close-btn" class="report-close-btn">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="report-box-body">
+        <form class="report-form" role="form" id="report-form">
+            <input type="hidden" name="_token" value="3LMyPvxsPMh6LZSmZIhlCNpOzsy80uqycS2n1Vw6">
+
+            <div class="options-wrap">
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Harassment and Cyberbullying" class="option" id="reason1" required>
+                    <label for="reason1">Harassment and Cyberbullying</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Impersonation" class="option" id="reason2" required>
+                    <label for="reason2">Impersonation</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Violent Threats" class="option" id="reason3" required>
+                    <label for="reason3">Violent Threats</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Hate Speech Against a Protected Group" class="option" id="reason4" required>
+                    <label for="reason4">Hate Speech Against a Protected Group</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Spam and Scams" class="option" id="reason5" required>
+                    <label for="reason5">Spam and Scams</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="none" class="option" id="reason6" required>
+                    <label for="reason6">None of these are my issue</label>
+                </div>
+                <div class="option-wrap extra-field" id="extra-field">
+                    <label for="report-reason" class="sr-only">reason to report</label>
+                    <input type="text" class="report-reason" name="report-custom-reason" placeholder="reason to report">
+                </div>
+            </div>
+
+            <label for="report-email" class="sr-only">your email</label>
+            <input type="email" class="report-email" name="report-email" id="report-email" placeholder="your email*" required>
+            
+            <label for="report-msg" class="sr-only">message</label>
+            <textarea class="report-msg" 
+                name="report-msg" 
+                id="report-msg" 
+                rows="3" 
+                placeholder="message*" required></textarea>
+        
+            <input type="hidden" id="report-msg_title" name="msg_title" value="[Websites.co.in] Website Abuse Reported">
+            <input type="hidden" id="report-website_id" name="report-website_id" value="1690762">
+            <input type="hidden" id="report-website_url" name="report-website_url" value="https://realtouchelectronics.websites.co.in">
+        
+            <button type="submit" class="report-send-btn">
+                Report this website
+            </button>
+        </form>
+        
+        <div id="report-success-box" class="report-success-box">
+            <h4>Thanks for being awesome!</h4>
+            <p>We appreciate you contacting us. Our support will get back in touch with you soon!</p>
+            <p>Have a great day!</p>
+        </div>
+
+        <div class="confirmation-box" id="confirmation-box">
+            <h3 class="c-title">Are you sure you want to report abuse against this website?</h3>
+            <div class="c-body">
+                <p>Please note that your query will be processed only if we find it relevant. Rest all requests will be ignored. If you need help with the website, please login to your dashboard and connect to support</p>
+            </div>
+            <div class="c-footer">
+                <a href="#" id="cancel-report-abuse" class="c-btn btn-cancel" onclick="event.preventDefault();">Cancel</a>
+                <a href="#" id="confirm-report-abuse" class="c-btn btn-confirm" onclick="event.preventDefault();">Confirm</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+    
+    <div id="custom-toast-body"></div>
+
+    
+    <div class="pqv-bg " id="pqv-popup-bg"></div>
+
+
+<div class="pqv-wrap " id="pqv-popup">
+    
+    <div class="pqv-container">
+        <div class="pqv-content">
+            <div class="lightbox-content">
+                <div class="product-quick-view-container">
+                    <button type="button" class="pqv-close pqv-close-btn" id="pqv-popup-close-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+
+                    <div class="product-info-col" id="pqv-data">
+                        <div class="product-info">
+                            <h4 class="product-name" id="pqv-data-pname"></h4>
+                            <div class="product-price-row">
+                                <p class="p-price">
+                                    <span id="pqv-data-pcurrency" class="_pqv_currency"></span>
+                                    <span id="pqv-data-pprice" class="_pqv_price"></span>
+                                </p>
+                            </div>
+                            <div class="product-variants-row" id="pqv-choices-area"></div>
+
+                            <div class="product-action-row">
+                                <p class="_pqv_error_msg" style="color: red;"></p>
+                                <input type="number" min="1" value="1" name="pquantity" id="pqv-pquantity">
+                            </div>
+
+                            <div class="product-categories-row" style="display: none;">
+                                <p class="p-cat-label">Category:</p>
+                                <a href="#" class="p-cat" id="pqv-data-pcategory"></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>;
+
+    <script>
+        window.Laravel = {"csrfToken":"3LMyPvxsPMh6LZSmZIhlCNpOzsy80uqycS2n1Vw6"};
+    </script>
+
+    <script type="text/javascript" src="https://realtouchelectronics.websites.co.in/dummytemplate/js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="https://realtouchelectronics.websites.co.in/dummytemplate/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://realtouchelectronics.websites.co.in/dummytemplate/plugins/slick/slick.min.js"></script>
+    
+    <script type="text/javascript" src="https://realtouchelectronics.websites.co.in/dummytemplate/js/youtube.js"></script>
+    <script type="text/javascript" src="https://realtouchelectronics.websites.co.in/dummytemplate/js/jquery.fancybox.min.js"></script>
+    
+    <script type="text/javascript" src="https://realtouchelectronics.websites.co.in/common/js/clicks.js"></script>
+
+    <!-- Select2 css and js cdn-links -->
+   <link href="https://realtouchelectronics.websites.co.in/common/css/select2.min.css" rel="stylesheet" />
+   <script src="https://realtouchelectronics.websites.co.in/common/js/select2.full.min.js"></script>
+
+   <!-- jquery cookie plugin-->
+   <script src="https://realtouchelectronics.websites.co.in/common/js/jquery.cookie.js"></script>
+
+   <!-- popup on cookie check-->
+   <script src="https://realtouchelectronics.websites.co.in/common/js/popup-on-cookie.js"></script>
+
+   <!-- Custom Toast-->
+   <script src="https://realtouchelectronics.websites.co.in/common/js/custom-toast.js"></script>
+
+   
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+    
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+    
+    
+    
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+
+    
+    <script src="https://realtouchelectronics.websites.co.in/common/js/money.min.js"></script>
+
+    
+    <!-- Custom Function / Scripts -->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            // Report Website Form Submit
+            // report Open Button Clicked
+            $('#report-btn').click(function () {
+                $('#report-box').addClass('open');
+            });
+
+            // report Close Button Clicked
+            $('#report-close-btn').click(function () {
+                $('#report-box').toggleClass('open');
+            });
+
+            $('input[type=radio][name=report-reason]').change(function() {
+                if ( $(this).val() == 'none' ) {
+                    $('#extra-field').css('display', 'block');
+                    $('#extra-field input[type=text]').attr('required', 'required');
+                } else {
+                    $('#extra-field').css('display', 'none');
+                    $('#extra-field input[type=text]').removeAttr('required');
+                }
+            });
+
+            // report Form Submit
+            $("#report-form").submit(function (e) {
+                e.preventDefault();
+
+                $('.report-send-btn').css('opacity', '0.6');
+                $('.report-send-btn').html('Sending..');
+
+                $('#confirmation-box').toggleClass('show');
+            });
+
+            // Confimation Box Actions
+            $('#cancel-report-abuse').click(function() {
+                $('.report-send-btn').css('opacity', '1');
+                $('.report-send-btn').html('SEND');
+                $('#confirmation-box').removeClass('show');
+            });
+
+            $('#confirm-report-abuse').click(function() {
+                // Send Data
+                $('#confirmation-box').removeClass('show');
+                sendReportAbuse();
+            });
+
+            // Submit Function For Report Abuse
+            function sendReportAbuse() {
+                var formData = $('#report-form').serializeArray();        
+                var dataObj = {};
+                var tempdataObj = {};
+                $(formData).each(function (i, field) {
+                    if(field.name == "report-reason" &&  field.value == "none") {
+                        tempdataObj[field.name] = '[Other]';
+                    } else {
+                        tempdataObj[field.name] = field.value;
+                    }
+                });
+                dataObj['_token'] = tempdataObj['_token'];
+                dataObj['website_id'] = tempdataObj['report-website_id'];
+                dataObj['msg_title'] = tempdataObj['msg_title'];
+                dataObj['feedback_msg'] = 'Visitors email: '+tempdataObj['report-email']+'\n Report Reason: '+tempdataObj['report-reason']+'\n'+tempdataObj['report-custom-reason']+'\n website url: '+tempdataObj['report-website_url']+'\n\n Report Message: '+tempdataObj['report-msg'];
+
+                $("#report-form :input").prop("disabled", true);
+
+                $.ajax({
+                    method: "post",
+                    url: "/feedback/send_web_msg",
+                    data: dataObj,
+                    success: function (response) {
+                        $("#report-form :input").prop("disabled", false);
+                        $('#confirmation-box').removeClass('show');
+                        $("#report-success-box").addClass('show');
+
+                        setTimeout(function() {
+                            $("#report-success-box").removeClass('show');
+                            $('#report-box').removeClass('open');
+                            $('#report-form')[0].reset();
+
+                            $('.report-send-btn').css('opacity', '1');
+                            $('.report-send-btn').html('SEND');
+                            $('#report-form textarea').val('');
+                        }, 8000);
+                    },
+                    error: function (response) {
+                        console.error('error', response);
+                        $("#report-form :input").prop("disabled", false);
+
+                        $('.report-send-btn').css('opacity', '1');
+                        $('#report-form textarea').val('');
+
+                        $('#report-box').removeClass('open');
+                    }
+                });
+            }
+
+            $("#subscribe").on('click', function(){
+                var email = $("#subscriber-email").val();
+
+                $('#subscriber-email').prop('disabled',true);
+                $('#subscribe').prop('disabled',true);
+                $('#subscribe-spinner').removeClass('hide').addClass('show');
+                $('#subscribe-btn-label').removeClass('show').addClass('hide');
+
+                $.ajax({
+                    method:"get",
+                    url:"/subscribeToBusiness",
+                    data:{
+                        businessdetails_id:$("#businessdetails_id").val(),
+                        website_id:$("#website_id").val(),
+                        email:email,
+                    },
+                    success:function(response){
+                        $('#subscribe-success-msg-data').html(response);
+                        $('#subscribe-success-msg').removeClass('hide').addClass('show');
+                        $("#subscriber-email").val('');
+
+                        $('#subscribe-error-msg').removeClass('show').addClass('hide');
+                        setTimeout(function(){
+                                $('#subscribe-success-msg').removeClass('show').addClass('hide');
+                            }, 6000);
+
+                        $('#subscriber-email').prop('disabled',false);
+                        $('#subscribe').prop('disabled',false);
+                        $('#subscribe-spinner').removeClass('show').addClass('hide');
+                        $('#subscribe-btn-label').removeClass('hide').addClass('show');
+                    },
+                    error:function(response){
+                        var errData = $.parseJSON(response.responseText);
+                        var msg = 'Error Subscribing to business. Please try again later.';
+                        
+                        $.each(errData, function(index, val) {
+                            msg = val[0];
+                        });
+
+                        $('#subscribe-error-msg-data').html(msg);
+                        $('#subscribe-error-msg').removeClass('hide').addClass('show');
+
+                        $('#subscriber-email').prop('disabled',false);
+                        $('#subscribe').prop('disabled',false);
+                        $('#subscribe-spinner').removeClass('show').addClass('hide');
+                        $('#subscribe-btn-label').removeClass('hide').addClass('show');
+                    }
+                })
+            });
+
+        });
+
+        function hideAlert(alertid,msgid){
+            $('#'+alertid).removeClass('show').addClass('hide');
+            $('#'+msgid).empty();
+        }
+
+        $( '.show-search' ).on('click', function() {
+            $( '#hide-search' ).slideToggle(900);
+         }); 
+        $( '.close-search' ).on('click', function() {
+            $( '#hide-search' ).slideToggle(900);
+         });
+    </script>
+
+    <script type="text/javascript">
+        function slug(str){
+            var $slug = '';
+            var trimmed = $.trim(str);
+            $slug = trimmed.replace(/[^a-z0-9-]/gi, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+            return $slug.toLowerCase();
+        }
+
+        $(function(){
+            $('#btn-search').click(function(){
+                var query = slug($('#search-form #query').val());
+                var type = $('#search-form input[name=type]:checked').val();
+
+                window.location.href = '/search/'+type+'/'+query;
+            });
+
+            $('#search-form #query').keyup(function(event) {
+                if (event.keyCode === 13) {
+                    $('#btn-search').click();
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        function openSendMessageForm(){
+            console.log(grecaptcha.reset());
+            $('#sendMessageModal').modal('show');
+        }
+
+        $(document).ready(function() {
+            $('#phonecode').select2({
+                dropdownParent: $("#sendMessageModal"),
+                minimumInputLength: 2,
+                placeholder: " e.g. +91 (IN)",
+                width: "resolve",
+                ajax: {
+                    url: '/reg/fetch/phonecode',
+                    data: function (params) {
+                        var query = {
+                            phoneCode: params.term
+                        }
+                        return query;
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function(){
+
+            $("#sendMessage").on('click', function(){
+                var formData = $('#sendMessageForm').serializeArray();
+                var dataObj = {};
+                
+                $(formData).each(function(i, field){
+                    dataObj[field.name] = field.value;
+                });
+
+                $("#sendMessageForm :input").prop("disabled", true);
+                $('#sendmsg-spinner').removeClass('hide').addClass('show');
+                $('#sendmsg-btn-label').removeClass('show').addClass('hide');
+
+                $.ajax({
+                    method:"post",
+                    url:"/sendMessage",
+                    data:dataObj,
+                    success:function(response){
+                        if(response['success'] == 1){
+                            $('#sendmsg-success-msg-data').html(response['msg']);
+                            $('#sendmsg-success-msg').removeClass('hide').addClass('show');
+                            $(".sendmsg-field-empty").val('');
+                            setTimeout(function(){
+                                $('#sendmsg-success-msg').removeClass('show').addClass('hide');
+                            }, 6000);
+                            // grecaptcha.reset();
+                            grecaptcha.reset($('#sendMessageForm .reset-captcha').data('grecapid'));
+                        }
+                        else{
+                            grecaptcha.reset($('#sendMessageForm .reset-captcha').data('grecapid'));
+
+                            $('#sendmsg-error-msg-data').html(response['msg']);
+                            $('#sendmsg-error-msg').removeClass('hide').addClass('show');
+                        }
+
+                        $("#sendMessageForm :input").prop("disabled", false);
+                        $('#sendmsg-spinner').removeClass('show').addClass('hide');
+                        $('#sendmsg-btn-label').removeClass('hide').addClass('show');
+                    },
+                    error:function(response){
+                        $('#sendmsg-error-msg-data').html(response['msg']);
+                        $('#sendmsg-error-msg').removeClass('hide').addClass('show');
+
+                        $("#sendMessageForm :input").prop("disabled", false);
+                        $('#sendmsg-spinner').removeClass('show').addClass('hide');
+                        $('#sendmsg-btn-label').removeClass('hide').addClass('show');
+                    }
+                })
+
+            });
+
+        });
+    </script>
+
+    <script type="text/javascript">
+
+        function findYoutubeUrls(text){
+            var source = (text || '').toString();
+            var urlArray = [];
+            var url;
+            var matchArray;
+
+            var regexToken = /(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/g;
+
+            while( (matchArray = regexToken.exec( source )) !== null )
+            {
+                var token = matchArray;
+                urlArray.push( token );
+            }
+
+            return urlArray;
+        }
+
+        $(function(){
+            $('.update-data').each(function(index, value){
+                var urls = findYoutubeUrls($(this).val());
+                var id = $(this).data('id');
+
+                if(urls.length !== 0){
+                    var imgUrl = 'https://img.youtube.com/vi/'+urls[0][1].slice(0,11)+'/hqdefault.jpg';
+
+                    $('#update-video-div-'+id).css('display', 'block');
+                    $('#update-data-div-'+id).addClass('col-xs-12 col-sm-12 col-md-12 col-lg-12');
+                    $('#update-video-thumb-'+id).attr('src', imgUrl);
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $('.vid-thumb').each(function(index, value){
+                var url = $(this).attr('src');
+                var videoId = url.match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/);
+                if(videoId != null) {
+                   $(this).attr('src', 'https://img.youtube.com/vi/'+videoId[1]+'/hqdefault.jpg');
+                }
+            });
+        });
+
+        $(document).ready(function(){
+
+            $('.filter-button').click(function(){
+                var value = $(this).attr('data-filter');
+                
+                if(value == 'all'){
+                    $('.filter').show('1000','linear');
+                }
+                else{
+                    $('.filter').not('.'+value).hide('500','linear');
+                    $('.filter').filter('.'+value).show('1000','linear'); 
+                }
+            });
+            
+            if ($('.filter-button').removeClass('active-filter')) {
+                $(this).removeClass('active-filter');
+            }
+
+            $(this).addClass('active-filter');
+
+        });
+    </script>
+
+     <script type="text/javascript">
+        $('.order-modal').click(function(){
+            grecaptcha.reset();
+
+            $('#title-product-name').text($(this).data('name'));
+            $('#product_id').val($(this).data('id'));
+            $('#unit').val($(this).data('unit'));
+
+            if($(this).data('btn').trim()=="0"){
+                $('#default-btn-value').text('Enquire Now');
+                $('#title-product-btn-value').text('Enquiry For');
+            }else{
+                console.log($(this).data('btn'));
+                $('#default-btn-value').text($(this).data('btn'));
+                $('#title-product-btn-value').text($(this).data('btn'));
+            }
+
+            $('#orderModal').modal('show');
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#order_phonecode').select2({
+                dropdownParent: $("#orderForm"),
+                minimumInputLength: 2,
+                placeholder: " e.g. +91 (IN)",
+                width: "resolve",
+                ajax: {
+                    url: '/reg/fetch/phonecode',
+                    data: function (params) {
+                        var query = {
+                            phoneCode: params.term
+                        }
+                        return query;
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#phonecode').select2({
+                dropdownParent: $("#sendMessageForm"),
+                minimumInputLength: 2,
+                placeholder: " e.g. +91 (IN)",
+                width: "resolve",
+                ajax: {
+                    url: '/reg/fetch/phonecode',
+                    data: function (params) {
+                        var query = {
+                            phoneCode: params.term
+                        }
+                        return query;
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    }
+                }
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $("#placeOrder").on('click', function(){
+                var formData = $('#orderForm').serializeArray();
+                var dataObj = {};
+                
+                $(formData).each(function(i, field){
+                    dataObj[field.name] = field.value;
+                });
+
+                $("#orderForm :input").prop("disabled", true);
+                $('#placeorder-spinner').removeClass('hide').addClass('show');
+                $('#placeorder-btn-label').removeClass('show').addClass('hide');
+
+                $.ajax({
+                    method:"post",
+                    url:"/productOrder",
+                    data:dataObj,
+                    success:function(response){
+                        if(response['success'] == 1){
+                            $('#placeorder-success-msg-data').html(response['msg']);
+                            $('#placeorder-success-msg').removeClass('hide').addClass('show');
+                            $(".order-field-empty").val('');
+                            $('#quantity').val('1');
+
+                            setTimeout(function(){
+                                $('#placeorder-success-msg').removeClass('show').addClass('hide');
+                            }, 6000);
+                            //grecaptcha.reset();
+                            grecaptcha.reset($('#orderForm .reset-captcha').data('grecapid'));
+                        }
+                        else{
+                            grecaptcha.reset($('#orderForm .reset-captcha').data('grecapid'));
+
+                            $('#placeorder-error-msg-data').html(response['msg']);
+                            $('#placeorder-error-msg').removeClass('hide').addClass('show');
+                        }
+
+                        $("#orderForm :input").prop("disabled", false);
+                        $('#placeorder-spinner').removeClass('show').addClass('hide');
+                        $('#placeorder-btn-label').removeClass('hide').addClass('show');
+                    },
+                    error:function(response){
+                        $('#placeorder-error-msg-data').html(response['msg']);
+                        $('#placeorder-error-msg').removeClass('hide').addClass('show');
+
+                        $("#orderForm :input").prop("disabled", false);
+                        $('#placeorder-spinner').removeClass('show').addClass('hide');
+                        $('#placeorder-btn-label').removeClass('hide').addClass('show');
+                    }
+                })
+
+            });
+
+        });
+    </script>
+
+    
+    <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+        try {
+            navigator.serviceWorker.register("https://realtouchelectronics.websites.co.in/service.worker.js?v=532968225").then(function(
+                registration) {
+                // Registration was successful
+                console.log('Laravel PWA: ServiceWorker registration successful with scope: ', registration
+                    .scope);
+            }, function(err) {
+                // registration failed :(
+                console.log('Laravel PWA: ServiceWorker registration failed: ', err);
+            });
+        } catch (error) {
+            console.log('service worker failed');
+        }
+    }
+</script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#background-slider").slick({
+                lazyLoad: 'ondemand',
+                infinite: true,
+                dots: true,
+                adaptiveHeight: false,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: false,
+                responsive: [
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                adaptiveHeight: false,
+                                }
+                            },
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                adaptiveHeight: false,
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                adaptiveHeight: false,
+                                }
+                            }
+                        ]
+            });
+
+            $(".media-carousel").slick({
+                lazyLoad: 'ondemand',
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 3,
+                dots: false,
+                adaptiveHeight: false,
+                centerMode: false,
+                centerPadding: '60px',
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                responsive: [
+                                {
+                                  breakpoint: 1024,
+                                  settings: {
+                                    slidesToShow: 3,
+                                    slidesToScroll: 3,
+                                    arrows: false
+                                  }
+                                },
+                                {
+                                  breakpoint: 600,
+                                  settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 2,
+                                    arrows:false,
+                                  }
+                                },
+                                {
+                                  breakpoint: 480,
+                                  settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                    arrows: false,
+                                  }
+                                }
+                            ]
+            });
+
+            $(".product-slider").slick({
+                lazyLoad: 'ondemand',
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 3,
+                dots: false,
+                adaptiveHeight: true,
+                centerMode: false,
+                centerPadding: '60px',
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                responsive: [
+                                {
+                                  breakpoint: 1024,
+                                  settings: {
+                                    slidesToShow: 3,
+                                    slidesToScroll: 3,
+                                    arrows: false
+                                  }
+                                },
+                                {
+                                  breakpoint: 600,
+                                  settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 2,
+                                    arrows:false
+                                  }
+                                },
+                                {
+                                  breakpoint: 480,
+                                  settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                    arrows: false
+                                  }
+                                }
+                            ]
+            });
+
+            $(".gallery-strip-search-page").slick({
+                lazyLoad: 'ondemand',
+                slidesToShow: 6,
+                slidesToScroll: 6,
+                infinite: true,
+                dots: false,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 6,
+                            slidesToScroll: 6
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            $('.product-detail-slider').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                dots:false,
+                arrows:true,
+                responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 970,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                ]
+            });
+        });
+    </script>
+
+    <!-- modal -->
+    <div class="modal fade" id="sendMessageModal" tabindex="-1" role="dialog" aria-labelledby="Send Message Form" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Want to know more about us?</h4>
+                    <h6 class="small">Fill in your details and we will get in touch at our earliest convenience</h6>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-success alert-dismissable hide" id="sendmsg-success-msg">
+                        <a href="javascript:void(0)" class="close" aria-label="close" onclick="hideAlert('sendmsg-success-msg','sendmsg-success-msg-data');">&times;</a>
+                        <div id="sendmsg-success-msg-data"></div>
+                    </div>
+
+                    <div class="alert alert-danger alert-dismissable hide" id="sendmsg-error-msg">
+                        <a href="javascript:void(0)" class="close" aria-label="close" onclick="hideAlert('sendmsg-error-msg','sendmsg-error-msg-data');">&times;</a>
+                        <div id="sendmsg-error-msg-data"></div>
+                    </div>
+
+                    <form role="form" id="sendMessageForm">
+                        <input type="hidden" name="_token" value="3LMyPvxsPMh6LZSmZIhlCNpOzsy80uqycS2n1Vw6">
+
+                        <div class="form-group">
+                            <label for="name">
+                                Name <span class="required">*</span>
+                            </label>
+                            <input type="text" name="name" class="form-control sendmsg-field-empty" id="name" placeholder="Name" required autofocus>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                Email <span class="required">*</span>
+                            </label>
+                            <input type="email" name="email" class="form-control sendmsg-field-empty" id="email" placeholder="Email" required>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="form-group col-lg-3 col-md-3 col-sm-4">
+                                <label for="phonecode">
+                                    Phone Code <span class="required">*</span>
+                                </label>
+                                <select class="form-control" name="phonecode" id="phonecode" style="width: 100%;"><option></option></select>
+                            </div>
+                            
+                            <div class="form-group col-lg-9 col-md-9 col-sm-8">
+                                <label for="phone">
+                                    Phone <span class="required">*</span>
+                                </label>
+                                <input type="tel" pattern="[0-9]+" title="enter valid phone number" name="phone" class="form-control sendmsg-field-empty" id="phone" placeholder="Phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">
+                                Message
+                            </label>
+                            <textarea name="message" class="form-control vertical-resize sendmsg-field-empty" placeholder="Additional Message (if any)" id="message"></textarea>
+                        </div>
+                        
+                        <div class="form-group recaptcha">
+                            <div id="g-recaptcha-widget5" class="reset-captcha"></div>
+                        </div>
+                        
+                        <input type="hidden" name="user_id" value="2839494">
+
+                        <input type="hidden" name="businessdetails_id" value="1691421">
+
+                        <input type="hidden" name="website_id" value="1690762">
+
+                        <div class="form-group" align="center">
+                            <button type="button" class="btn btn-primary theme-btn" id="sendMessage">
+                                <div class="show" id="sendmsg-btn-label">
+                                    <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Enquiry
+                                </div>
+
+                                <div class="hide" id="sendmsg-spinner">
+                                    Sending.. <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="Order Form" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title text-center">
+                        <span id="title-product-btn-value"></span> <span id="title-product-name"></span>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-success alert-dismissable hide" id="placeorder-success-msg">
+                        <a href="javascript:void(0)" class="close" aria-label="close" onclick="hideAlert('placeorder-success-msg','placeorder-success-msg-data');">&times;</a>
+                        <div id="placeorder-success-msg-data"></div>
+                    </div>
+
+                    <div class="alert alert-danger alert-dismissable hide" id="placeorder-error-msg">
+                        <a href="javascript:void(0)" class="close" aria-label="close" onclick="hideAlert('placeorder-error-msg','placeorder-error-msg-data');">&times;</a>
+                        <div id="placeorder-error-msg-data"></div>
+                    </div>
+
+                    <form role="form" id="orderForm">
+                        <input type="hidden" name="_token" value="3LMyPvxsPMh6LZSmZIhlCNpOzsy80uqycS2n1Vw6">
+                        
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Name <span class="required">*</span>
+                                    </label>
+                                    <input type="text" name="name" class="form-control order-field-empty" id="name" placeholder="Name" required autofocus>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <label for="email">
+                                        Email <span class="required">*</span>
+                                    </label>
+                                    <input type="email" name="email" class="form-control order-field-empty" id="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-lg-3 col-md-3 col-sm-4">
+                                <label for="phonecode">
+                                    Phone Code <span class="required">*</span>
+                                </label>
+                                <select class="form-control" name="order_phonecode" id="order_phonecode" style="width: 100%;"><option></option></select>
+                            </div>
+                            
+                            <div class="form-group col-lg-9 col-md-9 col-sm-8">
+                                <label for="phone">
+                                    Phone <span class="required">*</span>
+                                </label>
+                                <input type="tel" pattern="[0-9]+" title="enter valid phone number" name="phone" class="form-control order-field-empty" id="phone" placeholder="Phone" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label for="quantity">
+                                        Quantity <span class="required">*</span>
+                                    </label>
+                                    <input type="number" title="enter required quantity" name="quantity" id="quantity" min="1" value="1" class="form-control order-field-empty" placeholder="Quantity" required>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label for="unit">
+                                        Unit
+                                    </label>
+                                    <input type="text" title="Unit" name="unit" id="unit" value="" class="form-control" placeholder="Unit" readonly>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <label for="message">
+                                        Message
+                                    </label>
+                                    <textarea name="message" class="form-control vertical-resize order-field-empty" placeholder="Additional Message (if any)" id="message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="form-group recaptcha">
+                                <div id="g-recaptcha-widget4" class="reset-captcha"></div>
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="product_id" id="product_id" value="">
+
+                        <input type="hidden" name="user_id" id="user_id" value="2839494">
+
+                        <input type="hidden" name="businessdetails_id" id="businessdetails_id" value="1691421">
+
+                        <input type="hidden" name="website_id" id="website_id" value="1690762">
+
+                        <div class="form-group" align="center">
+                            <button type="button" id="placeOrder" class="theme-btn btn">
+                                <div class="show" id="placeOrder">
+                                    <span id="default-btn-value"></span>
+                                </div>
+
+                                <div class="hide" id="placeorder-spinner">
+                                   <span id="default-btn-value"></span>
+                                    <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Recaptcha -->
+    <script type="text/javascript" src="https://realtouchelectronics.websites.co.in/common/js/gRecaptchaExplicitRender.js"></script>
+    <script src="//www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+    
+    
+    
+    
+                                		
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1e7946724e","applicationID":"31671751","transactionName":"YVNTMEdUW0FYBk1QXFgZcAdBXFpcFg1WVFY=","queueTime":0,"applicationTime":569,"atts":"TRRQRg9OSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+</html>
